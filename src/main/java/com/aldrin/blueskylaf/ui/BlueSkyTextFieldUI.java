@@ -59,7 +59,7 @@ public class BlueSkyTextFieldUI extends BasicTextFieldUI {
     protected void installDefaults() {
         super.installDefaults();
 //        getComponent().setFont(new Font("Arial", Font.PLAIN, 14));
-        getComponent().setForeground(Color.BLACK);
+        getComponent().setForeground(new Color(0, 68, 204));
         getComponent().setBackground(backgroundColor);
         getComponent().setCaretColor(new Color(0, 153, 204));
         getComponent().setBorder(BorderFactory.createEmptyBorder(5, 5, 5, 5));
