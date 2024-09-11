@@ -29,7 +29,7 @@ public class BlueSkyLaf {
                 e.printStackTrace();
             }
             JFrameBlueSkyLaf frame = new JFrameBlueSkyLaf();
-//            SwingUtilities.updateComponentTreeUI(frame);
+//          SwingUtilities.updateComponentTreeUI(frame);
 
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
