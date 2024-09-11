@@ -22,6 +22,7 @@ import javax.swing.plaf.basic.BasicButtonUI;
  *
  * @author Java Programming with Aldrin
  */
+// Step 2: Create a custom ButtonUI class
 public class BlueSkyButtonUI extends BasicButtonUI {
 
     private static final Color defaultColor = new Color(51, 159, 214); // SteelBlue

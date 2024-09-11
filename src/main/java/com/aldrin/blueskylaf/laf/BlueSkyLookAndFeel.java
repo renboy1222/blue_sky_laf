@@ -14,6 +14,7 @@ import javax.swing.plaf.basic.BasicLookAndFeel;
  *
  * @author Java Programming with Aldrin
  */
+// Step 1: Create a custom LookAndFeel class by extending BasicLookAndFeel
 public class BlueSkyLookAndFeel extends BasicLookAndFeel {
 
     @Override
@@ -23,7 +24,7 @@ public class BlueSkyLookAndFeel extends BasicLookAndFeel {
 
     @Override
     public String getID() {
-        return "HoverClickLookAndFeel";
+        return "BlueSkyLookAndFeel";
     }
 
     @Override
@@ -59,4 +60,3 @@ public class BlueSkyLookAndFeel extends BasicLookAndFeel {
         table.put("Label.foreground", new Color(0, 153, 0));
     }
 }
-    
