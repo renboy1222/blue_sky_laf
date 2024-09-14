@@ -56,7 +56,7 @@ public class BlueSkyLookAndFeel extends BasicLookAndFeel {
     protected void initComponentDefaults(UIDefaults table) {
         super.initComponentDefaults(table);
 
-        // Set custom colors for JComboBox
+        // Set custom colors for JLabel
         table.put("Label.foreground", new Color(0, 68, 204));
 
     }
