@@ -19,7 +19,7 @@ public class BlueSkyLookAndFeel extends BasicLookAndFeel {
 
     @Override
     public String getName() {
-        return "Hover and Click LookAndFeel";
+        return "BlueSkyLookAndFeel";
     }
 
     @Override

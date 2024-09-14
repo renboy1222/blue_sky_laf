@@ -102,19 +102,7 @@ public class BlueSkyButtonUI extends BasicButtonUI {
     public Dimension getPreferredSize(JComponent c) {
         return new Dimension(75, 25);
     }
-    // Override the getPreferredSize method
-//    @Override
-//    public Dimension getPreferredSize(JComponent c) {
-//        // Set a default preferred size
-//        Dimension defaultSize = new Dimension(100, 40);
-//
-//        // If the JButton already has a set size, respect that
-//        if (c.getPreferredSize() != null) {
-//            return c.getPreferredSize();
-//        }
-//
-//        return defaultSize;
-//    }
+
 
     /**
      * @return the foregroundColor
