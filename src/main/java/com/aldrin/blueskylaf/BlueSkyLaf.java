@@ -20,8 +20,7 @@ public class BlueSkyLaf {
             try {
                 // Step 4: Set the custom LookAndFeel
 //                UIManager.setLookAndFeel(new BlueSkyLookAndFeel());
-                String laf = "com.aldrin.blueskylaf.laf.BlueSkyLookAndFeel";
-                UIManager.setLookAndFeel(laf);
+                UIManager.setLookAndFeel("com.aldrin.blueskylaf.laf.BlueSkyLookAndFeel");
             } catch (Exception e) {
                 e.printStackTrace();
             }
